@@ -4,10 +4,10 @@ namespace app\models;
 
 use yii\db\ActiveRecord;
 
-class User extends ActiveRecord
+class Post extends ActiveRecord
 {
     public static function tableName()
     {
-        return 'users';
+        return 'posts';
     }
 }
